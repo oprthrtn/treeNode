@@ -1,0 +1,30 @@
+.node-tree {
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  border: 1px solid black;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.node-tree > * {
+  padding: 0.5rem;
+}
+
+.node-tree-header {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.node-tree-wrapper {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.node-tree-footer {
+  border-top: 1px solid black;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}

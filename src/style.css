@@ -1,0 +1,8 @@
+:root {
+  --default-font: Arial, Helvetica, sans-serif;
+}
+
+body,
+button {
+  font-family: var(--default-font);
+}
